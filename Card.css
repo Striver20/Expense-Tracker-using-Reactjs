@@ -1,0 +1,18 @@
+.main_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  border: 1px solid black;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.main_card.positive {
+  border-right: 6px solid blue;
+}
+
+.main_card.negative {
+  border-right: 6px solid red;
+}
